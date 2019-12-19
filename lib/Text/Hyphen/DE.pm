@@ -3,7 +3,7 @@ use strict;
 use warnings;
 use parent 'Text::Hyphen';
 
-our $VERSION = '1.00';
+our $VERSION = '1.01';
 
 sub _PATTERNS {
 	return [qw[
