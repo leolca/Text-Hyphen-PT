@@ -1,1 +1,6 @@
 Text-Hyphen-DE-*/
+Build
+MYMETA.json
+MYMETA.yml
+_build_params
+blib/
