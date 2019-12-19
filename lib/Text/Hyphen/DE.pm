@@ -1,4 +1,6 @@
 package Text::Hyphen::DE;
+use strict;
+use warnings;
 use parent 'Text::Hyphen';
 
 our $VERSION = '1.00';
