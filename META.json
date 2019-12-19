@@ -47,7 +47,21 @@
       }
    },
    "release_status" : "unstable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/mdom/Text-Hyphen-DE/issues"
+      },
+      "homepage" : "https://github.com/mdom/Text-Hyphen-DE",
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/mdom/Text-Hyphen-DE.git",
+         "web" : "https://github.com/mdom/Text-Hyphen-DE"
+      }
+   },
    "version" : "1.00",
+   "x_contributors" : [
+      "Mario Domgoergen <mdom@taz.de>"
+   ],
    "x_serialization_backend" : "JSON::PP version 2.97001",
    "x_static_install" : 1
 }
