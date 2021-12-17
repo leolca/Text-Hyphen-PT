@@ -1,7 +1,7 @@
 {
-   "abstract" : "determine hyphenation positions in german words",
+   "abstract" : "determine hyphenation positions in portuguese words",
    "author" : [
-      "Mario Domgoergen C<< <mario@domgoergen.com> >>"
+      "Leonardo Araujo C<< <leolca@gmail.com> >>"
    ],
    "dynamic_config" : 0,
    "generated_by" : "Minilla/v3.1.11, CPAN::Meta::Converter version 2.150010",
@@ -12,7 +12,7 @@
       "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
       "version" : 2
    },
-   "name" : "Text-Hyphen-DE",
+   "name" : "Text-Hyphen-PT",
    "no_index" : {
       "directory" : [
          "t",
@@ -49,18 +49,18 @@
    "release_status" : "unstable",
    "resources" : {
       "bugtracker" : {
-         "web" : "https://github.com/mdom/Text-Hyphen-DE/issues"
+         "web" : "https://github.com/leolca/Text-Hyphen-PT/issues"
       },
-      "homepage" : "https://github.com/mdom/Text-Hyphen-DE",
+      "homepage" : "https://github.com/leolca/Text-Hyphen-PT",
       "repository" : {
          "type" : "git",
-         "url" : "git://github.com/mdom/Text-Hyphen-DE.git",
-         "web" : "https://github.com/mdom/Text-Hyphen-DE"
+         "url" : "git://github.com/mdom/Text-Hyphen-PT.git",
+         "web" : "https://github.com/mdom/Text-Hyphen-PT"
       }
    },
    "version" : "1.02",
    "x_contributors" : [
-      "Mario Domgoergen <mario@domgoergen.com>",
+      "Leonardo Araujo <leolca@gmail.com>",
       "Mario Domgoergen <mdom@taz.de>"
    ],
    "x_serialization_backend" : "JSON::PP version 4.02",
