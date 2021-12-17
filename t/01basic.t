@@ -4,9 +4,9 @@ use warnings;
 use utf8;
 use Test::More;
 
-use Text::Hyphen::DE;
+use Text::Hyphen::PT;
 
-ok( my $hyp = Text::Hyphen::DE->new, 'hyphenator loaded' );
+ok( my $hyp = Text::Hyphen::PT->new, 'hyphenator loaded' );
 
 sub is_hyph ($$) {
     my ( $word, $expected ) = @_;
@@ -14,7 +14,7 @@ sub is_hyph ($$) {
     is( $result, $expected, qq{hyphenated another word} );
 }
 
-is_hyph('Arbeiterinnen','Ar-bei-te-rin-nen');
-is_hyph('Arbeiter','Ar-bei-ter');
+is_hyph('Trabalhadores','Tra-ba-lha-do-res');
+is_hyph('Trabalhador','Tra-ba-lha-dor');
 
 done_testing;
