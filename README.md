@@ -1,22 +1,22 @@
 # NAME
 
-Text::Hyphen::DE - determine hyphenation positions in german words
+Text::Hyphen::PT - determine hyphenation positions in portuguese words
 
 # SYNOPSIS
 
 This module is an implementation of Knuth-Liang hyphenation algorithm
-for german text using patterns from groff package.
+for portuguese text using patterns from [tex-hyphen](https://www.tug.org/tex-hyphen/)e.
 
-    use Text::Hyphen::DE;
-    my $hyphenator = Text::Hyphen::DE->new;
+    use Text::Hyphen::PT;
+    my $hyphenator = Text::Hyphen::PT->new;
     print $hyphenator->hyphenate($word, '-');
 
 See [Text::Hyphen](https://metacpan.org/pod/Text%3A%3AHyphen) for the interface documentation. This module only
-provides german patterns.
+provides portuguese patterns.
 
 # COPYRIGHT AND LICENSE 
 
-Copyright 2019 Mario Domgoergen `<mario@domgoergen.com>`
+Copyright 2021 Leonardo Araujo `<leolca@gmail.com>`
 
 This program is free software: you can redistribute it and/or modify it 
 under the terms of the GNU General Public License as published by the   
